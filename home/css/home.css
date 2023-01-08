@@ -1,0 +1,136 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    color: var(--computer);
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+:root {
+    --computer: #17c242;
+    --blood: #b80f0f;     
+}
+
+.wrapper {
+    background: black;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.help {
+    color: var(--blood);
+    text-decoration: line-through;
+}
+
+/* header */
+
+header {
+    height: 40vh;
+}
+
+video {
+    height: 100%;
+    object-fit: cover;
+    width:100%;
+}
+
+/* nav */
+
+nav {
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav li {
+    border-right: 3px solid var(--computer);
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    color: var(--computer);
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background: var(--computer);
+    color: black;
+}
+
+/* main */
+
+main {
+    display: flex;
+    column-gap: 10%;
+    font-size: 18px;
+}
+
+/* left */
+
+.left {
+    width: 70%;
+    
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 150px;
+}
+
+p {
+    color: var(--computer);
+    padding-top: 30px;
+}
+
+p:last-child {
+    padding-bottom: 150px;
+}
+
+.left span {
+    color: var(--blood);
+}
+
+.left img {
+    width: 70%;
+}
+
+/* right */
+
+.right {
+    width: 30%;
+}
+
+figure {
+    padding: 50px 0px 50px 0px;
+}
+
+.right img {
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer > span {
+    color: var(--blood);
+}

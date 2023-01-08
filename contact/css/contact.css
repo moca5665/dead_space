@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    color: var(--computer);
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+:root {
+    --computer: #17c242;
+    --blood: #b80f0f;     
+}
+
+.wrapper {
+    background: black;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.help {
+    color: var(--blood);
+    text-decoration: line-through;
+}
+
+/* header */
+
+header {
+    background-color: white;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid var(--blood);
+    border-bottom: 10px solid var(--blood);
+}
+
+header h1 {
+    color: var(--blood);
+    font-size: 50px;
+}
+
+/* nav */
+
+nav {
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav li {
+    border-right: 3px solid var(--computer);
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    color: var(--computer);
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background: var(--computer);
+    color: black;
+}
+
+/* main */
+
+main {
+    display: flex;
+    column-gap: 10%;
+    font-size: 18px;
+    justify-content: center;
+}
+
+/* form */
+
+.top {
+    padding-top: 150px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+}
+
+textarea {
+    width: 1000px;
+    height: 30vh;
+    font-size: 18px;
+}
+
+.radio {
+    display: flex;
+    padding-top: 50px;
+}
+
+.radio label:last-child {
+    padding-left: 20px;
+}
+
+.padding {
+    padding-left: 20px;
+
+}
+
+select {
+    width: 40%;
+}
+
+/* paddingtop50px */
+
+p {
+    padding-top: 50px;
+}
+
+.gap {
+    padding-top: 50px;
+}
+
+#submit {
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom:150px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+footer > span {
+    color: var(--blood);
+}
